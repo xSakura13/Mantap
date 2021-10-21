@@ -1,11 +1,11 @@
 @media (max-width:1024px) {
     .description_left h3 {
-        font-size: 30px;
+        font-size: var(--text_size_j);
         line-height: 50px;
         padding-right: 90px;
     }
     .description_left p {
-        font-size: 14px;
+        font-size: var(--text_size_c);
         line-height: 20px;
         padding-right: 70px;
     }
@@ -13,12 +13,12 @@
 
 @media (max-width:950px) {
     .description_left h3 {
-        font-size: 25px;
+        font-size: var(--text_size_h);
         line-height: 30px;
         padding-right: 50px;
     }
     .description_left p {
-        font-size: 13px;
+        font-size: var(--text_size_c);
         line-height: 19px;
         padding-right: 30px;
     }
@@ -29,12 +29,12 @@
 
 @media (max-width:767px) {
     .description_left h3 {
-        font-size: 20px;
+        font-size: var(--text_size_f);
         line-height: 30px;
         padding-right: 0px;
     }
     .description_left p {
-        font-size: 12px;
+        font-size: var(--text_size_b);
         padding-right: 0px;
     }
     .description_wrapper {

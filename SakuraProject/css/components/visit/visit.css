@@ -1,5 +1,5 @@
 .visit_shop h3 {
-    font-size: 40px;
+    font-size: var(--text_size_l);
     font-weight: 700;
     line-height: 56px;
     text-align: left;
@@ -10,7 +10,7 @@
 
 .visit_wrapper {
     max-width: 100%;
-    background-color: #F3F4F6;
+    background-color: var(--background_plant);
     background-image: url(../../../img/sanni-sahil-Y71kWrdt14k-unsplash\ 1.png);
     background-repeat: no-repeat;
     background-position: right;

@@ -1,0 +1,21 @@
+:root {
+    --text_size_a: 10px;
+    --text_size_b: 12px;
+    --text_size_c: 14px;
+    --text_size_d: 16px;
+    --text_size_e: 18px;
+    --text_size_f: 20px;
+    --text_size_g: 22px;
+    --text_size_h: 24px;
+    --text_size_i: 26px;
+    --text_size_j: 30px;
+    --text_size_k: 32px;
+    --text_size_l: 40px;
+    --text_size_m: 50px;
+    --text_size_n: 68px;
+    --background_plant: #F3F4F6;
+    --color_text: #156963;
+    --color_address: #4F4F4F;
+    --color_logo: #FFFFFF;
+    --color_span: #adacac;
+}

@@ -18,12 +18,12 @@
             padding-bottom: 20px;
         }
         .info h1 {
-            font-size: 50px;
+            font-size: var(--text_size_m);
             line-height: 55px;
             padding-bottom: 20px;
         }
         .info p {
-            font-size: 16px;
+            font-size: var(--text_size_d);
         }
         .info {
             padding: 0 0 95px 45px;
@@ -35,16 +35,16 @@
     
     @media (max-width:950px) {
         .info h1 {
-            font-size: 27px;
+            font-size: var(--text_size_i);
             padding-right: 100px;
         }
         .info p {
-            font-size: 15px;
+            font-size: var(--text_size_c);
             line-height: 30px;
             padding-right: 70px;
         }
         .catalog span {
-            font-size: 27px;
+            font-size: var(--text_size_i);
         }
         .catalog img {
             padding: 10px 3px;
@@ -60,13 +60,11 @@
     
     @media (max-width:767px) {
         .info h1 {
-            font-size: 27px;
             line-height: 35px;
             text-align: center;
             padding-right: 0;
         }
         .info p {
-            font-size: 14px;
             line-height: 27px;
             padding-right: 0;
         }
@@ -87,7 +85,7 @@
             padding-top: 15px;
         }
         .catalog span {
-            font-size: 24px;
+            font-size: var(--text_size_h);
         }
         .catalog {
             padding-bottom: 20px;
@@ -99,16 +97,16 @@
             padding: 20px 0 0 20px;
         }
         .info h1 {
-            font-size: 20px;
+            font-size: var(--text_size_f);
         }
         .info p {
-            font-size: 12px;
+            font-size: var(--text_size_b);
             line-height: 20px;
         }
         .info {
             padding: 0 20px 20px 20px;
         }
         .catalog span {
-            font-size: 18px;
+            font-size: var(--text_size_e);
         }
     }

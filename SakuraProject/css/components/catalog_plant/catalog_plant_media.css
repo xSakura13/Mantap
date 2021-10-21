@@ -7,19 +7,19 @@
         padding-bottom: 50px;
     }
     .catalog_plant_wrapper h3 {
-        font-size: 14px;
+        font-size: var(--text_size_c);
     }
     .catalog_plant_wrapper p {
-        font-size: 14px;
+        font-size: var(--text_size_c);
     }
 }
 
 @media (max-width:767px) {
     .featured h3 {
-        font-size: 15px;
+        font-size: var(--text_size_c);
     }
     .shop_wrapper select {
-        font-size: 10px;
+        font-size: var(--text_size_a);
         padding: 5px 10px;
     }
     .catalog_plant_wrapper ul {

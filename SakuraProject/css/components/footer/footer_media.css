@@ -3,15 +3,15 @@
         padding-top: 40px;
     }
     .footer_wrapper h3 {
-        font-size: 13px;
+        font-size: var(--text_size_b);
         line-height: 10px;
     }
     .plantku h2 {
-        font-size: 15px;
+        font-size: var(--text_size_c);
         line-height: 10px;
     }
     .company p {
-        font-size: 10px;
+        font-size: var(--text_size_a);
         line-height: 16px;
     }
 }
@@ -23,16 +23,13 @@
     .plantku h2 {
         padding-bottom: 15px;
     }
-    .footer_wrapper h3 {
-        font-size: 13px;
-    }
     .plantku address {
         padding-right: 10px;
         line-height: 15px;
-        font-size: 10px;
+        font-size: var(--text_size_a);
     }
     .company p {
-        font-size: 12px;
+        font-size: var(--text_size_b);
         line-height: 12px;
     }
     .company {
