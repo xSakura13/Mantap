@@ -1,0 +1,41 @@
+@media (max-width:1024px) {
+    .catalog_plant_wrapper li {
+        padding: 5px 5px;
+        max-width: 21%;
+    }
+    .catalog_plant_wrapper {
+        padding-bottom: 50px;
+    }
+    .catalog_plant_wrapper h3 {
+        font-size: 14px;
+    }
+    .catalog_plant_wrapper p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:767px) {
+    .featured h3 {
+        font-size: 15px;
+    }
+    .shop_wrapper select {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .catalog_plant_wrapper ul {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .catalog_plant_wrapper li {
+        max-width: 45%;
+    }
+}
+
+@media (max-width:550px) {
+    .catalog_plant_wrapper li {
+        max-width: 60%;
+    }
+    .catalog_plant_wrapper {
+        padding-bottom: 20px;
+    }
+}

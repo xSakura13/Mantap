@@ -1,0 +1,29 @@
+@media (max-width:1024px) {
+    .container {
+        max-width: 940px;
+    }
+}
+
+@media (max-width:950px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        max-width: 530px;
+    }
+}
+
+@media (max-width:550px) {
+    .container {
+        max-width: 310px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        max-width: none;
+    }
+}

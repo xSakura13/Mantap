@@ -1,0 +1,96 @@
+.mantap_wrapper {
+    display: flex;
+}
+
+.mantap_left,
+.mantap_right {
+    width: 50%;
+}
+
+.mantap_left {
+    display: flex;
+    background: url(../../../img/bg.png) no-repeat top left;
+    background-size: contain;
+    padding: 40px 0 0 54px;
+}
+
+.poligon_logo {
+    position: relative;
+}
+
+.poligon_logo a {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 900;
+    left: 35%;
+    top: 2%;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav {
+    padding-bottom: 110px;
+}
+
+nav .login a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #156963;
+}
+
+nav li {
+    padding-top: 48px;
+}
+
+nav li:last-child {
+    padding-right: 40px;
+}
+
+nav .icon {
+    padding: 54px 37px 0px 0px;
+}
+
+.info h1 {
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 83px;
+    color: #156963;
+    padding-bottom: 25px;
+}
+
+.info {
+    padding-left: 50px;
+    padding-bottom: 110px;
+}
+
+.info p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 100px;
+}
+
+.catalog span {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #adacac;
+}
+
+.mantap_wrapper {
+    padding-bottom: 140px;
+}
+
+.catalog_left img {
+    transform: rotate(180deg);
+}
+
+.catalog img {
+    padding: 4px 10px;
+}

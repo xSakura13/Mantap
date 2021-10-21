@@ -1,0 +1,73 @@
+@media (max-width:1024px) {
+    .catalog button {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:950px) {
+    nav button {
+        padding: 6px 20px;
+    }
+    .catalog button {
+        font-size: 21px;
+        padding: 20px 19px;
+    }
+    .email input {
+        padding: 8px 15px 8px 13px;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .visit_shop form {
+        padding-right: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    nav button {
+        padding: 5px 10px;
+    }
+    .visit_shop button {
+        padding: 8px 20px;
+    }
+    .catalog button {
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 40%;
+    }
+    .catalog form {
+        display: flex;
+        justify-content: center;
+    }
+    .visit_shop button {
+        padding: 5px 15px;
+        font-size: 12px;
+    }
+    .email input {
+        padding: 8px 15px 8px 5px;
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .visit_shop form {
+        padding: 0 0 50px 25px;
+    }
+}
+
+@media (max-width:550px) {
+    .catalog button {
+        padding: 5px 10px;
+        width: 50%;
+        font-size: 15px;
+    }
+    .visit_shop button {
+        padding: 1px 8px;
+        font-size: 9px;
+    }
+    .visit_shop form {
+        padding: 0px 0px 35px 15px;
+    }
+}

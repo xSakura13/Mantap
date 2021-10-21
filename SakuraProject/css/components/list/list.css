@@ -1,0 +1,41 @@
+.list_wrapper li {
+    max-width: 25%;
+    padding: 15px 35px;
+    border: 1px solid #E0E0E0;
+    margin: 0px 15px;
+}
+
+.list_wrapper ul {
+    display: flex;
+}
+
+.list_wrapper {
+    padding-bottom: 85px;
+}
+
+.list h3 {
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #156963;
+}
+
+.list_wrapper p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #2C1500;
+}
+
+.list_wrapper .img {
+    padding: 0px 15px 15px 0px;
+}
+
+.list .title {
+    display: flex;
+}
+
+.list .title:not(.great) {
+    width: 48%;
+}

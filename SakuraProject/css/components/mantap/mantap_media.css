@@ -1,0 +1,114 @@
+    @media (max-width:1024px) {
+        .poligon_logo a {
+            top: 13px;
+        }
+        nav ul .icon {
+            padding-right: 10px;
+        }
+        nav li {
+            padding-top: 0px;
+        }
+        nav .icon {
+            padding-top: 6px;
+        }
+        nav li:last-child {
+            padding-right: 5px;
+        }
+        nav {
+            padding-bottom: 20px;
+        }
+        .info h1 {
+            font-size: 50px;
+            line-height: 55px;
+            padding-bottom: 20px;
+        }
+        .info p {
+            font-size: 16px;
+        }
+        .info {
+            padding: 0 0 95px 45px;
+        }
+        .mantap_wrapper {
+            padding-bottom: 50px;
+        }
+    }
+    
+    @media (max-width:950px) {
+        .info h1 {
+            font-size: 27px;
+            padding-right: 100px;
+        }
+        .info p {
+            font-size: 15px;
+            line-height: 30px;
+            padding-right: 70px;
+        }
+        .catalog span {
+            font-size: 27px;
+        }
+        .catalog img {
+            padding: 10px 3px;
+            width: 15%;
+        }
+        .info {
+            padding: 0 0 20px 20px;
+        }
+        .mantap_wrapper {
+            padding-bottom: 30px;
+        }
+    }
+    
+    @media (max-width:767px) {
+        .info h1 {
+            font-size: 27px;
+            line-height: 35px;
+            text-align: center;
+            padding-right: 0;
+        }
+        .info p {
+            font-size: 14px;
+            line-height: 27px;
+            padding-right: 0;
+        }
+        .mantap_wrapper {
+            display: block;
+            padding-bottom: 0;
+        }
+        .mantap_left,
+        .mantap_right {
+            width: 100%;
+        }
+        .mantap_left {
+            background-position: center;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        nav {
+            padding-top: 15px;
+        }
+        .catalog span {
+            font-size: 24px;
+        }
+        .catalog {
+            padding-bottom: 20px;
+        }
+    }
+    
+    @media (max-width:550px) {
+        .mantap_left {
+            padding: 20px 0 0 20px;
+        }
+        .info h1 {
+            font-size: 20px;
+        }
+        .info p {
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .info {
+            padding: 0 20px 20px 20px;
+        }
+        .catalog span {
+            font-size: 18px;
+        }
+    }
