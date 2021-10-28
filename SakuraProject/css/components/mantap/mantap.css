@@ -36,14 +36,6 @@ nav {
     padding-bottom: 110px;
 }
 
-nav .login a {
-    font-size: var(--text_size_c);
-    font-weight: 700;
-    line-height: 20px;
-    text-align: center;
-    color: var(--color_text);
-}
-
 nav li {
     padding-top: 48px;
 }

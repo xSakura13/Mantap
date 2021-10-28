@@ -84,6 +84,9 @@
         nav {
             padding-top: 15px;
         }
+        nav .login p {
+            font-size: var(--text_size_b);
+        }
         .catalog span {
             font-size: var(--text_size_h);
         }

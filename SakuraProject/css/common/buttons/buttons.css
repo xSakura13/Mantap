@@ -1,14 +1,16 @@
-nav button {
+nav .login button {
+    font-size: var(--text_size_c);
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: var(--color_text);
     padding: 8px 30px;
-    background-color: white;
+    background-color: var(--color_logo);
 }
 
-nav button:hover {
-    background: #156963;
-}
-
-nav button:hover a {
-    color: white;
+nav .login button:hover {
+    background: var(--color_text);
+    color: var(--color_logo);
 }
 
 .catalog form {
@@ -18,13 +20,13 @@ nav button:hover a {
 .catalog button {
     width: 49%;
     padding: 40px 35px;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color_logo);
     text-align: left;
-    font-size: 32px;
+    font-size: var(--text_size_k);
     font-weight: 500;
     line-height: 39px;
     letter-spacing: 0em;
-    color: #156963;
+    color: var(--color_text);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -32,32 +34,34 @@ nav button:hover a {
 }
 
 .catalog button:hover {
-    background-color: #156963;
-    color: white;
+    background-color: var(--color_text);
+    color: var(--color_logo);
 }
 
 .visit_shop button {
-    font-size: 14px;
+    font-size: var(--text_size_c);
     font-weight: 700;
     line-height: 20px;
     text-align: center;
-    background: #156963;
-    color: white;
+    background: var(--color_text);
+    color: var(--color_logo);
     padding: 10px 40px;
     border-radius: 1px;
 }
 
 .visit_shop button:hover {
-    color: black;
+    color: var(--color_text);
+    background-color: var(--background_plant);
+    box-shadow: 0 0 1px 1px #4F4F4F;
 }
 
 .email button {
-    font-size: 8px;
+    font-size: var(--text_size_a);
     font-weight: 500;
     line-height: 14px;
     text-align: center;
-    background: #156963;
-    color: white;
+    background: var(--color_text);
+    color: var(--color_logo);
     padding: 4px 12px;
 }
 
@@ -65,7 +69,7 @@ nav button:hover a {
     padding: 8px 85px 8px 13px;
     border: 1px solid #F2F2F2;
     margin-bottom: 15px;
-    font-size: 16px;
+    font-size: var(--text_size_d);
 }
 
 .email form {

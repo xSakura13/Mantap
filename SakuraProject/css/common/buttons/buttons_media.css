@@ -1,6 +1,6 @@
 @media (max-width:1024px) {
     .catalog button {
-        font-size: 22px;
+        font-size: var(--text_size_g);
     }
 }
 
@@ -9,13 +9,13 @@
         padding: 6px 20px;
     }
     .catalog button {
-        font-size: 21px;
+        font-size: var(--text_size_f);
         padding: 20px 19px;
     }
     .email input {
         padding: 8px 15px 8px 13px;
         margin-bottom: 15px;
-        font-size: 12px;
+        font-size: var(--text_size_b);
     }
     .visit_shop form {
         padding-right: 40px;
@@ -45,12 +45,12 @@
     }
     .visit_shop button {
         padding: 5px 15px;
-        font-size: 12px;
+        font-size: var(--text_size_b);
     }
     .email input {
         padding: 8px 15px 8px 5px;
         margin-bottom: 10px;
-        font-size: 11px;
+        font-size: var(--text_size_a);
     }
     .visit_shop form {
         padding: 0 0 50px 25px;
@@ -61,11 +61,11 @@
     .catalog button {
         padding: 5px 10px;
         width: 50%;
-        font-size: 15px;
+        font-size: var(--text_size_c);
     }
     .visit_shop button {
         padding: 1px 8px;
-        font-size: 9px;
+        font-size: var(--text_size_a);
     }
     .visit_shop form {
         padding: 0px 0px 35px 15px;
